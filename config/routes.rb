@@ -1,7 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
 
 	map.root :controller => "home"
-	map.about_me '/', :controller => nil
+	map.about_me '/about', :controller => 'home', :action => 'about_me'
 	map.profile '/', :controller => nil
 	map.blog 'http://www.google.com', :controller => nil
 

@@ -1,0 +1,58 @@
+<% title 'About me' %>
+<% body_class 'about_me' %>
+
+<div class="tag">
+<h1>Learn more about me</h1>
+<h2>It'll be interesting</h2>
+</div>
+
+
+<div class="left_col">
+	<h3>CSV bio</h3>
+	<p>Programmer, DJ, entrepreneur, researcher, boyfriend, son, Chicago fireman in the making.</p>
+	
+	<h3>Quick Links</h3>
+	<ul>
+		<li><%= link_to	"My github", "http://www.github.com/wwwjscom" %></li>
+	</ul>
+</div>
+
+<div class="right_col">
+	
+	<h3>Myself</h3>
+	<%= image_tag "about_me/me.png" %>
+	<p>Born in Chicago, IL, in 1986, I haven't moved far.  Here is a quick breakdown of whatnots:<br />
+		<strong>Tech- </strong>I've recently become an apple fanboy (I'm not sold on the iPad though).  iPhone 3GS, black MacBook, and iMac are all part of my tech arsenal.  I'm also rocking a Ubuntu server in my basement.  I drive a manual blue mini cooper (yep, they're like go-carts!).  I recently bought a Nikon D3000 to get into some photography on the side.<br />
+		<strong>Leisure- </strong>I enjoy scuba diving, snowboarding, cycling, soccer, rock climbing, and white watering.  I've also skydived (or skydove, or doven...).<br />
+		<strong>Music- </strong>
+		Currently enjoying John Legend, Evolver.  I saw him in concert, I think every woman in the audience wanted to have sex with him that night.  The man is quiet suave if I may-say-so myself.
+		<%= image_tag "about_me/legend.JPG" %><br />
+		<strong>Coding- </strong>I currently love the Ruby and Ruby on Rails combo.  I enjoy getting things out the door, and not fighting with classpaths, missing libraries, dealing with Tomcat, etc when I could be getting things done.  I do know several languages (see my resume), but everyone has a favorite.  I of course back it with git and github, with a combination of the terminal and textmate.<br />
+		<strong>Job- </strong>I am proud to have worked at the (now defunct) <%= link_to "IIT Information Retrieval Lab", "http://ir.iit.edu" %>.  There, I met several talented and intelligent people.  My advisor <%= link_to "Ophir Frieder", "http://cs.georgetown.edu/~ophir/" %> (<%= link_to "@ophir", "http://www.twitter.com/ophir"%>), who is now the chair of the Georgetown CS Department; Jordan (<%= link_to "@diginux", "http://www.twitter.com/diginux"%>) and Tristan who have since gone to <%= link_to "Orbitz", "http://www.orbitz.com" %>; and <%= link_to "Yacin", "http://www.cc.gatech.edu/~ynadji3/" %> (<%= link_to "@ynadji", "http://www.twitter.com/ynadji" %>) who is now working on his PhD in the Info Sec lab of Georgia Tech.  I've also held down other jobs which can be summed up mostly as rich internet applications (RIAs) which were/are used by <%= link_to "USHMM", "http://www.ushmm.org" %>, <%= link_to "Dell", "http://www.dell.com" %>, <%= link_to "CNA", "http://www.cna.com" %>, other Fortune 500 companies, and have had products I've engineered/consulted on featured on <%= link_to "NBC", "http://www.nbc.com" %>, <%= link_to "ABC", "http://www.abc.com" %>, <%= link_to "WGN", "http://www.wgntv.com" %>, and <%= link_to "Fox", "http://www.myfoxchicago.com" %> networks.<br />
+		<strong>Future Job(s)- </strong>I'd like to join the Chicago Fire Department.  I've already taken (and passed) the exam, I'm just waiting to be called - which is based on random order, sadly.  Once in, I'll try and move rapidly to the Squad (special forces), who do scuba rescue, high-angel rescues, and many other amazing things.  Otherwise I'd like to work for an agile programming company.  Hopefully doing web development.  No UML diagrams, please!
+		</p>
+	
+	<div style="height: 10; clear: both;"></div>
+	<div class="hr_line"></div>
+	
+	<h3>Life 2 most important things</h3>
+	<%= image_tag "about_me/alayna_aj.JPG" %>
+	<p>The girlfriend (photo left), and the dog (photo right).  Alayna (<%= link_to "@alaynac", "http://www.twitter.com/alaynac" %>) has been my girlfriend since high school.  On her way to dental school, she'll hopefully be my sugar momma, so I can fulfill my true calling - stay at home dad!  My dog AJ (May 2009) is a Golden Retriever who loves nothing more than bitting you.<br />
+		You can see both of them hard at work making a snowman.
+	</p>
+	
+	<div style="height: 10; clear: both;"></div>
+	<div class="hr_line"></div>	
+	
+	<h3>DJing</h3>
+	<%= image_tag "about_me/dj1.jpg", :class => 'wide' %>
+	<%= image_tag "about_me/dj2.jpg", :class => 'wide' %>
+	<p>I started DJing right out of high school.  I started DJing for free at a friends house party, and built it into a business where I worked for the <%= link_to "Illinois Institute of Technology", "http://www.iit.edu" %>, the <%= link_to "ADA", "http://www.diabetes.org/" %>, Loyola University sororities, and many other companies/events.  The pinnacle of my career was headlining a club called <%= link_to "Sammies", "http://www.samysbarandgrill.com/" %>. I was turned off by what I saw there, and how I was treated, which lead me to hang up my DJing hat (except for close friends).  It was a wild ride & a stressful profession.</p>
+
+
+	<div style="height: 10; clear: both;"></div>
+	<div class="hr_line"></div>
+	
+	<h3>Parents</h3>
+	<p>I have a very "interesting" mom and dad <%= image_tag "about_me/parents.JPG" %></p>
+</div>

@@ -7,6 +7,25 @@ body
 a
 {
 	color 				: rgb(0, 170, 221);
+	text-decoration 	: none;
+}
+
+a:hover
+{
+	text-decoration 	: underline;
+}
+
+h1, h2, h3
+{
+	font-weight 		: normal;
+	word-spacing		: 1px;
+}
+
+p
+{
+	word-spacing		: 1px;
+	font-size 			: 14px;
+	line-height			: 1.4em;
 }
 
 #wrapper
@@ -25,12 +44,33 @@ a
 {
 	float 				: right;
 	margin 				: 25px 0 0 0;
+	font-size 			: 1em;
 }
 
 #logo
 {
 	margin 				: 50px 0 0 0;
 	clear: both;
+}
+
+/* Main tagline */
+.tag h1
+{
+	letter-spacing		: 1px;
+	float 				: right;
+	margin 				: -85px 0 0 0;
+	color 				: rgb(153, 153, 153);
+	font-size			: 1.3em;
+}
+
+/* Sub tagline */
+.tag h2
+{
+	letter-spacing		: 1px;
+	float 				: right;
+	margin 				: -55px 0 0 0;
+	color 				: rgb(102, 102, 102);
+	font-size			: 1.2em;
 }
 
 .hr_line
@@ -45,14 +85,22 @@ a
 	border 				: 0px solid green;
 }
 
+.left_col h3
+{
+	color 				: rgb(153, 153, 153);
+	margin 				: 0 0 -5px 0;
+}
+
+.right_col h3
+{
+	margin 				: 0 0 -5px 0;
+}
 
 
-
-
-/***********************************
-			Home page
-***********************************/
-body.home .left_col
+/*********************
+	Generic Columns
+*********************/
+.left_col
 {
 	border 				: 0px solid green;
 	width 				: 300;
@@ -60,7 +108,7 @@ body.home .left_col
 	vertical-align 		: top;
 }
 
-body.home .right_col
+.right_col
 {
 	border 				: 0px solid green;
 	float 				: right;
@@ -69,43 +117,9 @@ body.home .right_col
 	border 				: 0px solid green;
 }
 
-body.home h1, body.home h2, body.home h3
-{
-	font-weight 		: normal;
-	word-spacing		: 1px;
-}
-
-/* Main tagline */
-body.home h1
-{
-	letter-spacing		: 1px;
-	float 				: right;
-	margin 				: -85px 0 0 0;
-	color 				: rgb(153, 153, 153);
-	font-size			: 1.3em;
-}
-
-/* Sub tagline */
-body.home h2
-{
-	letter-spacing		: 1px;
-	float 				: right;
-	margin 				: -55px 0 0 0;
-	color 				: rgb(102, 102, 102);
-	font-size			: 1.2em;
-}
-
-body.home .left_col h3
-{
-	color 				: rgb(153, 153, 153);
-	margin 				: 0 0 -5px 0;
-}
-
-body.home .right_col h3
-{
-	margin 				: 0 0 -5px 0;
-}
-
+/***********************************
+			Home page
+***********************************/
 body.home .right_col img
 {
 	margin 				: 0 25px 0 0;
@@ -114,10 +128,21 @@ body.home .right_col img
 	width 				: 215px;
 }
 
+/****************************************
+			About me
+*****************************************/
 
-body.home p
+body.about_me .right_col img
 {
-	word-spacing		: 1px;
-	font-size 			: 14px;
-	line-height			: 1.4em;
+	width 				: 215px;
+	height 				: 300px;
+	float 				: right;
+	border 				: 1px solid black;
+	margin 				: 5px;
+}
+
+body.about_me .right_col img.wide
+{
+	height 				: 215px;
+	width 				: 300px;
 }
