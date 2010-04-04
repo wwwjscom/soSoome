@@ -26,7 +26,7 @@ h1, h2, h3
 	word-spacing		: 1px;
 }
 
-p
+p, li
 {
 	word-spacing		: 1px;
 	font-size 			: 14px;
