@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books type="array">
+  <book>
+    <title>Who is this girl? I seen only a handful of pictures of her and I think I am in love. EASTFAP MEN, I need your help to find the name of this girl.</title>
+    <created-at type="datetime">2010-05-05T03:15:16Z</created-at>
+    <id type="integer">149</id>
+    <post-id type="integer">34</post-id>
+    <public type="boolean">true</public>
+    <updated-at type="datetime">2010-05-05T16:30:06Z</updated-at>
+  </book>
+  <book>
+    <title>daaaaaayuuuum</title>
+    <created-at type="datetime">2010-04-25T06:06:07Z</created-at>
+    <id type="integer">141</id>
+    <post-id type="integer">33</post-id>
+    <public type="boolean">true</public>
+    <updated-at type="datetime">2010-04-25T17:00:00Z</updated-at>
+  </book>
+  <book>
+    <title>you are a god amongst men</title>
+    <created-at type="datetime">2010-04-24T18:28:13Z</created-at>
+    <id type="integer">140</id>
+    <post-id type="integer">33</post-id>
+    <public type="boolean">true</public>
+    <updated-at type="datetime">2010-04-24T20:08:34Z</updated-at>
+  </book>
+</books>
