@@ -33,6 +33,11 @@ p, li
 	line-height			: 1.4em;
 }
 
+p.notice
+{
+  background-color: #FFFF99;
+}
+
 #wrapper
 {
 	margin 				: 0 auto;
